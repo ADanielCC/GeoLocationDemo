@@ -8,6 +8,7 @@
 <body>
     <h1>Geolocation Test</h1>
     <p id="status">Waiting for permission...</p>
+    <button onclick="getLocation()">Get Location Again</button>
 
     <script>
         function getLocation() {
@@ -39,9 +40,6 @@
                     break;
             }
         }
-
-        // Trigger the geolocation request
-        getLocation();
     </script>
 </body>
 </html>
